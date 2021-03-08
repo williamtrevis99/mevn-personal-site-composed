@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  backend:
+    build:
+      context: ./personal-site-backend
+    ports:
+      - "3333:3333"
+  frontend:
+    restart: always
+    build:
+      context: ./personal-site-frontend
+    ports:
+      - "8080:80"
+  database:
+    build:
+      context: personal-site-db
+      ports:
+        -
+
