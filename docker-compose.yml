@@ -7,6 +7,8 @@ services:
       - backend
     expose:
       - "8080"
+    links:
+      - backend:backend
   backend:
     build:
       context: ./personal-site-backend
