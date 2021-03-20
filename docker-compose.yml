@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  frontend:
+    build:
+      context: ./personal-site-frontend
+    depends_on:
+      - backend
+    expose:
+      - "8080"
+    links:
+      - backend:backend
+  backend:
+    build:
+      context: ./personal-site-backend
+    expose:
+      - "3333"
+  reverse-proxy:
+    build:
+      context: ./personal-site-reverse-proxy
+    ports:
+      - 80:80
+    depends_on:
+      - frontend
+      - backend
+    links:
+      - frontend:frontend
+      - backend:backend
