@@ -1,5 +1,5 @@
-# mevn-personal-site
+# mevn-blog-net
 
-This is the DEV branch
+This is just a quick project to get used to the MEVN stack.
 
-This is a repository containing my personal website, build using the MEVN stack, MongoDB, express, Vue.js, and Node js
+![alt text](assets/imageone.png)

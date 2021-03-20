@@ -3,17 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="30644233-c01f-4382-9ac7-889cb972e37a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-site-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-site-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-site-backend/routes/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-backend/routes/api/posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-site-backend/routes/api/sample.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-site-backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-frontend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-frontend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-frontend/src/components/HelloWorld.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/personal-site-frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pUPw2McDbE7XSrKVQQffeTO2R9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,6 +40,8 @@
       <recent name="$PROJECT_DIR$/personal-site-frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/personal-site-frontend/src/assets" />
       <recent name="$PROJECT_DIR$/personal-site-backend/routes/api" />
     </key>
   </component>
@@ -63,7 +60,7 @@
       <workItem from="1615660410591" duration="17277000" />
       <workItem from="1615914151442" duration="3825000" />
       <workItem from="1616019779493" duration="20317000" />
-      <workItem from="1616196042641" duration="31178000" />
+      <workItem from="1616196042641" duration="31524000" />
     </task>
     <servers />
   </component>
