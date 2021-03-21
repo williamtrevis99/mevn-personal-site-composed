@@ -4,11 +4,12 @@
     <list default="true" id="30644233-c01f-4382-9ac7-889cb972e37a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imageone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-site-backend/routes/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-backend/routes/api/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-backend/routes/api/sample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-site-backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-site-frontend/src/components/AppBody/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-frontend/src/components/AppBody/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-site-frontend/src/components/AppBody/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-frontend/src/components/AppBody/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-site-frontend/src/components/AppBody/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-site-frontend/src/components/AppBody/template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <workItem from="1615660410591" duration="17277000" />
       <workItem from="1615914151442" duration="3825000" />
       <workItem from="1616019779493" duration="20317000" />
-      <workItem from="1616196042641" duration="31524000" />
+      <workItem from="1616196042641" duration="40693000" />
     </task>
     <servers />
   </component>
