@@ -1,19 +1,30 @@
 #!/bin/bash
 # import multiple remote git repositories to local CODE dir
-arr=(https://github.com/williamtrevis99/personal-site-db.git https://github.com/williamtrevis99/personal-site-frontend.git https://github.com/williamtrevis99/personal-site-backend.git)
 
+set -e
+
+trap '[[ -t 1 ]] && tput sgr0' DEBUG
+
+# shellcheck disable=SC2006
+green=`tput setaf 2`
+# shellcheck disable=SC2006
+red=`tput setaf 1`
+
+arr=("personal-site-frontend"
+    "personal-site-backend"
+    "personal-site-reverse-proxy"
+)
+
+# shellcheck disable=SC2068
 for gitRepo in ${arr[@]}
 do
 	echo -e "Git Cloning... $gitRepo"
-	cloneCmdRun = $("git clone $gitRepo")
-	echo -e "${cloneCmdRun}\n\n"
+	if ! git clone "https://github.com/williamtrevis99/$gitRepo.git"
+	then
+      echo -e "\n${red}-- Git Clone Failed --\n"
+    else
+      (cd "$gitRepo" && git checkout dev)
+      echo -e "\n${green}-- Git Clone Successfull --\n"
+    fi
 done
 
-i=0
-while [ $i -le 6 ]; do
-  for s in / - \\ \|; do
-    printf "\r$s"
-    sleep .1
-  done
-  i=$((i+1))
-done
